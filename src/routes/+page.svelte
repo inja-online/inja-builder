@@ -20,6 +20,11 @@
     });
 </script>
 
+<svelte:head>
+	<title>Builder - AI-Powered Website Builder | 2000+ tokens/sec with Cerebras</title>
+	<meta name="description" content="Build websites using natural language with lightning-fast AI generation. Features real-time preview, chat-based interface, and instant deployment. Powered by Cerebras Qwen models generating 2000+ tokens per second." />
+</svelte:head>
+
 <div class="min-h-screen bg-dark-primary text-white p-8 flex flex-col">
     {#if apiKeyPresent}
         <!-- Top Section with Brand and Blog Link -->
